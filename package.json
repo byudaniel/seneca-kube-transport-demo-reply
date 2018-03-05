@@ -1,0 +1,23 @@
+{
+  "name": "kube-transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node srv/prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^4.13.0",
+    "seneca": "^3.4.3",
+    "seneca-balance-client": "^0.6.1",
+    "seneca-kubernetes":
+      "git+https://github.com/paolochiodi/seneca-kubernetes.git",
+    "seneca-mesh": "^0.11.0",
+    "seneca-pino-adapter": "^0.1.4",
+    "seneca-repl": "^1.1.2"
+  }
+}
